@@ -1,0 +1,104 @@
+/*--- theme accent color ---*/
+AccentColor {
+    color: #636466;
+}
+
+
+
+#2d324f
+
+
+.HPtop3Section {
+
+}
+
+<ul class="bottomContainer">
+  <li class="bottom-flex-item">Louisville Dryer Company &copy; 1904 – <?php echo date('Y'); ?> </li>
+  <li class="bottom-flex-item"><a href="https://louisvilledryer.com/"">Home</a></li><li class="bottom-flex-item"> | </li> 
+  <li class="bottom-flex-item"><a href="https://louisvilledryer.com/contact/">CONTACT US</a></li><li class="bottom-flex-item"> | </li>
+  <li class="bottom-flex-item ">1(800) 735-3163<li class="bottom-flex-item"></li>
+</ul>
+
+/*========== Bottom Footer =========*/
+.bottomContainer {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+  }
+  
+  .bottom-flex-item {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  @media only screen and (min-width: 981px){
+    #logo {
+      max-height: 100%;
+      margin-top: 15px;
+    }
+  }	
+  body > div.mob-menu-header-holder.mobmenu{
+    top: 70px!important;
+  }
+  
+  #top-header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  
+  /*========== Bottom Footer =========*/
+  .bottomContainer {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      justify-content: center;
+      align-items: baseline;
+    }
+    
+    .bottom-flex-item {
+      margin-left: 10px; 
+    }
+  
+  
+  /*========== End Bottom Footer =========*/
+  
+  /* Typography */
+  
+  h1 {
+    font-size: 3.052em;
+    font-weight:;
+  }
+  
+  h2 {
+    font-size: 2.441em;
+  }
+  
+  h3 {
+    font-size: 1.953em;
+  }
+  
+  h4 {
+    font-size: 1.563em;
+  }
+  
+  h5{
+    font-size: 1.25em;
+  }
+  
+  h6 {
+    font-size: 0.8em;
+  /* } */
